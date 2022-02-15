@@ -1,0 +1,30 @@
+{
+  "name": "pairexercise.authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loannejee/PairExercise.Authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loannejee/PairExercise.Authentication/issues"
+  },
+  "homepage": "https://github.com/loannejee/PairExercise.Authentication#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
