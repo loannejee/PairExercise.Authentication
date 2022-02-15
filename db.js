@@ -1,4 +1,6 @@
 // contains the Sequelize data models and seeding code
+// jwt: json web token
+const jwt = require("jsonwebtoken");
 const Sequelize = require('sequelize');
 const { STRING } = Sequelize;
 const config = {
